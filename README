@@ -1,13 +1,2 @@
-Mica Bogdan 312CB
-Pentru citire folosesc doi vectori de tip unsigned char pentru a citi ca un bloc de memorie pentru ca din headerul imaginii am nevoie doar de width si height pe care le extrag cu memcpy.Dupa aceea calculez padding-ul
-Pentru taskurile 1 si 2 retin pixelii imaginii intr un vector de tip unsigned char si intrucat la primul trebuie sa fac media aritmetica,consider cate 3 pixeli pe care i calculez.
-
-La task 2 ma folosesc de vectorul de pixeli in care stochez informatia si completez o matrice in functie de bordarea necesara.Mai intai fac marginile cu alb in partea superioara,respectiv partea din stanga (Daca latimea img < lungimea).dupa care extrag pixelii din vector si ii pun in matrice,considerand si paddingul la completarea elementelor matricii.
-
-
-La task 3 consider 3 matrici una pentru fiecare pixel  si calculez suma pentru fiecare submatrice in functie de dimensiunea filtrului
-
-
-
-La task 5 am incercat cu algoritmul lui fill de a nota fiecare pixel in functie de zona careia ii corespunde
+Image data processing using dynamic memory allocation
 
